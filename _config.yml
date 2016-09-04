@@ -1,14 +1,26 @@
-layout_spectrum: 0.6702509
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
   saturation: 1
+  brandStrength: 0.5438449
   lightness: 1
-  brandStrength: 1
   brandColors:
-    - '#F8E7DD'
-    - '#EDD5C9'
-    - '#F1DCCB'
-    - '#C8B9B2'
-    - '#FFEEE7'
+    - '#221C1C'
+    - '#D9C6BF'
+    - '#867678'
+    - '#4B403F'
+    - '#685C5C'
   rhythmicContrast: 1
-typography_spectrum: 0.5788531
-name: roguegirlgonefashion
+typography_spectrum: 0.3971332
+layout_spectrum: 1
+name: rogue girl gone fashion
